@@ -40,25 +40,29 @@ function App() {
                 <div className="row justify-content-center">
                     {filteredCharacters.map(character => (
                         <div key={character.id} className="col-md-4 mb-3">
-                            <div className="card character-card">
-                                <div className="d-flex flex-column w-100">
-                                    <h5 className="card-title mb-5"
-                                        style={{fontFamily: 'FiraSans'}}>{character.name}</h5>
+                            <a href={character.url} target="_blank" rel="noopener noreferrer"
+                               className="text-decoration-none">
+                                <div className="card character-card">
+                                    <div className="d-flex flex-column w-100">
+                                        <h5 className="card-title mb-5"
+                                            style={{fontFamily: 'FiraSans'}}>{character.name}</h5>
 
-                                    <div className='d-flex justify-content-between'>
-                                        <p className={`m-0 mt-3 status ${character.status.toLowerCase()}`}>
-                                            <strong className='fw-light'
-                                                    style={{color: 'gray'}}>Status:</strong> {character.status}
-                                        </p>
-                                        <p className="m-0 mt-3 created">
-                                            <strong>Created:</strong> {new Date(character.created).toLocaleDateString()}
-                                        </p>
+                                        <div className='d-flex justify-content-between'>
+                                            <p className={`m-0 mt-3 status ${character.status.toLowerCase()}`}>
+                                                <strong className='fw-light'
+                                                        style={{color: 'gray'}}>Status:</strong> {character.status}
+                                            </p>
+                                            <p className="m-0 mt-3 created">
+                                                <strong>Created:</strong> {new Date(character.created).toLocaleDateString()}
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                     ))}
                 </div>
+
             )}
         </div>
     );
