@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/https/naals.github.io/search/static/css/main.99e4dae4.css",
-    "main.js": "/https/naals.github.io/search/static/js/main.ed788b31.js",
-    "static/js/488.0ccaf1f0.chunk.js": "/https/naals.github.io/search/static/js/488.0ccaf1f0.chunk.js",
-    "index.html": "/https/naals.github.io/search/index.html",
-    "main.99e4dae4.css.map": "/https/naals.github.io/search/static/css/main.99e4dae4.css.map",
-    "main.ed788b31.js.map": "/https/naals.github.io/search/static/js/main.ed788b31.js.map",
-    "488.0ccaf1f0.chunk.js.map": "/https/naals.github.io/search/static/js/488.0ccaf1f0.chunk.js.map"
+    "main.css": "/search/static/css/main.99e4dae4.css",
+    "main.js": "/search/static/js/main.345a5f70.js",
+    "static/js/488.0ccaf1f0.chunk.js": "/search/static/js/488.0ccaf1f0.chunk.js",
+    "index.html": "/search/index.html",
+    "main.99e4dae4.css.map": "/search/static/css/main.99e4dae4.css.map",
+    "main.345a5f70.js.map": "/search/static/js/main.345a5f70.js.map",
+    "488.0ccaf1f0.chunk.js.map": "/search/static/js/488.0ccaf1f0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.99e4dae4.css",
-    "static/js/main.ed788b31.js"
+    "static/js/main.345a5f70.js"
   ]
 }
